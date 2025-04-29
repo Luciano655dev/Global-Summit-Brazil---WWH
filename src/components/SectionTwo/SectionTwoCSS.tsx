@@ -2,21 +2,12 @@ import styled from "styled-components"
 
 export const Container = styled.div`
   width: 100%;
-  min-height: 100vh;
+  min-height: 150vh;
   display: flex;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
   overflow: hidden;
-
-  @media (max-width: 1024px) {
-    min-height: 130vh;
-    justify-content: start;
-    align-items: start;
-  }
-  @media (max-width: 768px) {
-    min-height: 165vh;
-  }
 `
 
 export const OtherContainer = styled.div`
