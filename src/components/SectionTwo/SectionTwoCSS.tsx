@@ -33,12 +33,12 @@ export const OtherContainer = styled.div`
     object-fit: contain;
   }
   h1 {
-    font-size: 3em;
+    font-size: 2em;
     margin: 0;
   }
   p {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1em;
   }
   label {
     color: gray;
